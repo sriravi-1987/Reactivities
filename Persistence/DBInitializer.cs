@@ -12,7 +12,6 @@ public class DBInitializer
         var activities = new List<Activity>
         {
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Past Activity 1",
                 DateTime.Now.AddMonths(-2),
                 "Activity 2 months ago",
@@ -24,7 +23,6 @@ public class DBInitializer
                 -0.1256611057818921
             ),
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Past Activity 2",
                 DateTime.Now.AddMonths(-1),
                 "Activity 1 month ago",
@@ -36,7 +34,6 @@ public class DBInitializer
                 2.33802768704666
             ),
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Future Activity 1",
                 DateTime.Now.AddMonths(1),
                 "Activity 1 month in future",
@@ -48,7 +45,6 @@ public class DBInitializer
                 -0.17600190725447445
             ),
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Future Activity 2",
                 DateTime.Now.AddMonths(2),
                 "Activity 2 months in future",
@@ -60,7 +56,6 @@ public class DBInitializer
                 0.0032029278126681844
             ),
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Future Activity 3",
                 DateTime.Now.AddMonths(3),
                 "Activity 3 months in future",
@@ -72,7 +67,6 @@ public class DBInitializer
                 -0.053577
             ),
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Future Activity 4",
                 DateTime.Now.AddMonths(4),
                 "Activity 4 months in future",
@@ -84,7 +78,6 @@ public class DBInitializer
                 -0.10364680647106028
             ),
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Future Activity 5",
                 DateTime.Now.AddMonths(5),
                 "Activity 5 months in future",
@@ -96,7 +89,6 @@ public class DBInitializer
                 -0.1584743
             ),
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Future Activity 6",
                 DateTime.Now.AddMonths(6),
                 "Activity 6 months in future",
@@ -108,7 +100,6 @@ public class DBInitializer
                 -0.15197608174931165
             ),
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Future Activity 7",
                 DateTime.Now.AddMonths(7),
                 "Activity 2 months ago",
@@ -120,7 +111,6 @@ public class DBInitializer
                 -0.781404
             ),
             new Activity(
-                Guid.NewGuid().ToString(),
                 "Future Activity 8",
                 DateTime.Now.AddMonths(8),
                 "Activity 8 months in future",

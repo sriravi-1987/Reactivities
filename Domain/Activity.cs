@@ -4,19 +4,18 @@ namespace Domain;
 
 public class Activity
 {
-    public string Id { get; }
-    public string Title { get; }
-    public DateTime Date { get; }
-    public string Description { get; }
-    public string Category { get; }
-    public bool IsCancelled { get; }
-    public string City { get; }
-    public string Venue { get; }
-    public double Latitude { get; }
-    public double Longitude { get; }
+    public string Id { get; set; } = Guid.NewGuid().ToString();
+    public string Title { get; set; }
+    public DateTime Date { get;set;  }
+    public string Description { get;set;  }
+    public string Category { get;set;  }
+    public bool IsCancelled { get; set; }
+    public string City { get;set;  }
+    public string Venue { get; set; }
+    public double Latitude { get; set; }
+    public double Longitude { get;set;  }
 
     public Activity(
-        string id,
         string title,
         DateTime date,
         string description,
@@ -27,7 +26,6 @@ public class Activity
         double latitude,
         double longitude)
     {
-        Id = id;
         Title = title;
         Date = date;
         Description = description;
